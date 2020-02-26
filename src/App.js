@@ -1,6 +1,7 @@
 import React,{useReducer} from 'react';
 import './App.css';
-import DataFetchingOne from './components/DataFetchingOne';
+// import DataFetchingOne from './components/DataFetchingOne';
+import DataFetchingTwo from './components/DataFetchingTwo';
 // import ComponentA from './components/ComponentA';
 // import ComponentB from './components/ComponentB';
 // import ComponentC from './components/ComponentC';
@@ -70,7 +71,8 @@ function App() {
         <ComponentC/>
       </CountContext.Provider> */}
 
-      <DataFetchingOne/>
+      {/* <DataFetchingOne/> */}
+      <DataFetchingTwo/>
     </div>
   );
 }
