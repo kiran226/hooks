@@ -4,17 +4,17 @@ const reducer=(state,action)=>{
     switch(action){
         case 'increment':
             return state+1
+            
         case 'decrement':
             return state-1
 
         case 'reset':
-            return intialState
+            return intialState;
 
         default :
             return state
     }
 }
-
 function CounterOne() {
     const[count,dispatch]=useReducer(reducer,intialState);
     return (
