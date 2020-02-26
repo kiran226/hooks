@@ -6,7 +6,7 @@ function DataFetching() {
     const[id,setId]=useState(1);
     const[idFromButtonClick,setIdFromButtonClick]= useState(1);
     useEffect(()=>{
-        axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`)
+        axios.get(`https://jsonplaceholder.typicode.com/posts/${idFromButtonClick}`)
         .then((res)=>{
             console.log(res);
             setPost(res.data)
