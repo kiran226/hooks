@@ -1,8 +1,9 @@
 import React,{useReducer} from 'react';
 import './App.css';
-import ComponentA from './components/ComponentA';
-import ComponentB from './components/ComponentB';
-import ComponentC from './components/ComponentC';
+import DataFetchingOne from './components/DataFetchingOne';
+// import ComponentA from './components/ComponentA';
+// import ComponentB from './components/ComponentB';
+// import ComponentC from './components/ComponentC';
 
 // import CounterThree from './components/CounterThree';
 // import CounterTwo from './components/CounterTwo';
@@ -21,26 +22,28 @@ import ComponentC from './components/ComponentC';
 // import HookCounter from './components/HookCounter';
 // import HookCounter2 from './components/HookCounter2';
 
-export const CountContext= React.createContext();
+// export const CountContext= React.createContext();
 
 function App() {
-  const initialState=0
-  const reducer=(state,action)=>{
-    switch(action){
-      case 'increment':
-        return state+1
+
+  // const initialState=0
+  // const reducer=(state,action)=>{
+  //   switch(action){
+  //     case 'increment':
+  //       return state+1
     
-      case 'decrement':
-        return state-1
+  //     case 'decrement':
+  //       return state-1
     
-      case 'reset':
-        return initialState
+  //     case 'reset':
+  //       return initialState
       
-      default:
-        return state;  
-  }
-  }
-  const[count,dispatch]=useReducer(reducer,initialState)
+  //     default:
+  //       return state;  
+  // }
+  // }
+  // const[count,dispatch]=useReducer(reducer,initialState);
+
   return (
     <div className="App">
       {/* <ClickCounter/> */}
@@ -59,12 +62,15 @@ function App() {
       {/* <CounterOne/> */}
       {/* <CounterTwo/> */}
       {/* <CounterThree/> */}
-      Count-{count}
+
+      {/* Count-{count}
       <CountContext.Provider value={{CountState:count,CountDispatch:dispatch }}>
         <ComponentA/>
         <ComponentB/>
         <ComponentC/>
-      </CountContext.Provider>
+      </CountContext.Provider> */}
+
+      <DataFetchingOne/>
     </div>
   );
 }
