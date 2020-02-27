@@ -1,9 +1,10 @@
 import React,{useReducer} from 'react';
 import './App.css';
+import CounterUseMemo from './components/CounterUseMemo';
 // import CounterHookOne from './components/CounterHookOne';
 // import CounterHookTwo from './components/CounterHookTwo';
 
-import UserForm from './components/UserForm';
+// import UserForm from './components/UserForm';
 
 // import DocTitleOne from './components/DocTitleOne';
 // import DocTitleTwo from './components/DocTitleTwo';
@@ -99,8 +100,10 @@ function App() {
       {/* <CounterHookOne/>
       <CounterHookTwo/> */}
 
-      <UserForm/>
+      {/* <UserForm/> */}
 
+      {/* useMemo hook */}
+      <CounterUseMemo/>
     </div>
   );
 }
