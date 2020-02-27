@@ -1,6 +1,8 @@
 import React,{useReducer} from 'react';
 import './App.css';
-import ParentComponent from './ParentComponent';
+import FocusInput from './FocusInput';
+
+// import ParentComponent from './ParentComponent';
 // import DataFetchingOne from './components/DataFetchingOne';
 // import DataFetchingTwo from './components/DataFetchingTwo';
 // import ComponentA from './components/ComponentA';
@@ -75,7 +77,11 @@ function App() {
       {/* <DataFetchingOne/> */}
       {/* <DataFetchingTwo/> */}
 
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+
+      <FocusInput/>
+  
+
     </div>
   );
 }
