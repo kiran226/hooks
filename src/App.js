@@ -1,7 +1,10 @@
 import React,{useReducer} from 'react';
 import './App.css';
-import CounterHookOne from './components/CounterHookOne';
-import CounterHookTwo from './components/CounterHookTwo';
+// import CounterHookOne from './components/CounterHookOne';
+// import CounterHookTwo from './components/CounterHookTwo';
+
+import UserForm from './components/UserForm';
+
 // import DocTitleOne from './components/DocTitleOne';
 // import DocTitleTwo from './components/DocTitleTwo';
 // import ClassTimer from './components/ClassTimer';
@@ -93,8 +96,10 @@ function App() {
       {/* <DocTitleOne/>
       <DocTitleTwo/> */}
 
-      <CounterHookOne/>
-      <CounterHookTwo/>
+      {/* <CounterHookOne/>
+      <CounterHookTwo/> */}
+
+      <UserForm/>
 
     </div>
   );
