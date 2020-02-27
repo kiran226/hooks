@@ -1,7 +1,9 @@
 import React,{useReducer} from 'react';
 import './App.css';
-import FocusInput from './FocusInput';
+import ClassTimer from './components/ClassTimer';
+import HookTimer from './components/HookTimer';
 
+// import FocusInput from './FocusInput';
 // import ParentComponent from './ParentComponent';
 // import DataFetchingOne from './components/DataFetchingOne';
 // import DataFetchingTwo from './components/DataFetchingTwo';
@@ -79,8 +81,9 @@ function App() {
 
       {/* <ParentComponent/> */}
 
-      <FocusInput/>
-  
+      {/* <FocusInput/> */}
+      <ClassTimer/>
+      <HookTimer/>
 
     </div>
   );
