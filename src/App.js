@@ -1,7 +1,9 @@
 import React,{useReducer} from 'react';
 import './App.css';
-import DocTitleOne from './components/DocTitleOne';
-import DocTitleTwo from './components/DocTitleTwo';
+import CounterHookOne from './components/CounterHookOne';
+import CounterHookTwo from './components/CounterHookTwo';
+// import DocTitleOne from './components/DocTitleOne';
+// import DocTitleTwo from './components/DocTitleTwo';
 // import ClassTimer from './components/ClassTimer';
 // import HookTimer from './components/HookTimer';
 
@@ -88,8 +90,11 @@ function App() {
       <HookTimer/> */}
 
       {/* custom hooks */}
-      <DocTitleOne/>
-      <DocTitleTwo/>
+      {/* <DocTitleOne/>
+      <DocTitleTwo/> */}
+
+      <CounterHookOne/>
+      <CounterHookTwo/>
 
     </div>
   );
