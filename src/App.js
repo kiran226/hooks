@@ -1,7 +1,9 @@
 import React,{useReducer} from 'react';
 import './App.css';
-import ClassTimer from './components/ClassTimer';
-import HookTimer from './components/HookTimer';
+import DocTitleOne from './components/DocTitleOne';
+import DocTitleTwo from './components/DocTitleTwo';
+// import ClassTimer from './components/ClassTimer';
+// import HookTimer from './components/HookTimer';
 
 // import FocusInput from './FocusInput';
 // import ParentComponent from './ParentComponent';
@@ -82,8 +84,12 @@ function App() {
       {/* <ParentComponent/> */}
 
       {/* <FocusInput/> */}
-      <ClassTimer/>
-      <HookTimer/>
+      {/* <ClassTimer/>
+      <HookTimer/> */}
+
+      {/* custom hooks */}
+      <DocTitleOne/>
+      <DocTitleTwo/>
 
     </div>
   );
